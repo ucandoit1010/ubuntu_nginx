@@ -4,7 +4,8 @@
 `apt-get update`
 
 ### Set Timezone - 設定 Ubuntu 時區
-`timedatectl list-timezones`
+1. `timedatectl list-timezones` 顯示時區
+2. `timedatectl set-timezone Asia/Taipei` 設定時區為台灣台北
 
 ### Install Nginx -安裝 Nginx
 
